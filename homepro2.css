@@ -1,4 +1,5 @@
 body{
+    overflow-x: hidden;
     margin: auto;
     background-color: #fff;
 }
@@ -140,6 +141,7 @@ body{
 }
 .Component1{
     width:100%;
+    
     float: left;
     height:300px;
 }
