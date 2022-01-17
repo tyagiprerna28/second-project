@@ -82,8 +82,11 @@ body{
     margin-top: 2%;
     margin-left: 1.5%;
     box-shadow:10px 20px 10px #524f4e;
+    
 }
-
+.tileContainer:hover{
+    transform: scale(1.1);
+}
 .tileComponent1{
     width:100%;
     float: left;
@@ -139,6 +142,9 @@ body{
     margin-left: 1.5%;
     box-shadow:10px 20px 10px #524f4e;
 }
+.oContainer:hover{
+    transform: scale(1.1);
+}
 .Component1{
     width:100%;
     
@@ -153,8 +159,32 @@ body{
 .container{
     margin-top: 4%;
     width: 100% !important;
-   
 }
+.bankContainer{
+    height:230px;
+    width:18%;
+    float: left;
+    border-radius: 3%;
+    margin-top: 2%;
+    margin-left: 1.5%;
+    box-shadow:10px 20px 10px #524f4e;
+}
+.bankContainer:hover{
+    transform: scale(1.1);
+} 
+.bComponent1{
+    width:100%;
+    
+    float: left;
+    height:230px;
+} 
+.bComponent1 >img{
+    width:100%;
+    border-radius: 3%;
+    height:230px!important;
+}
+  
+
 #containerHeading{
     display:block;
     color:#763839;
